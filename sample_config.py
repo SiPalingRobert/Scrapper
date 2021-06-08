@@ -13,8 +13,8 @@ class Config:
     # MyTelegram.org
     # configurtion required while creating new application
     APP_TITLE = os.environ.get("APP_TITLE", "scrapmanbot")
-    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "scrapkenbot")
-    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/scrapkenbot")
+    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "scraperkenbot")
+    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/scraperkenbot")
     # these platform informations were obtained
     # on 27.01.2020 21:15:50 IST
     APP_PLATFORM = [
@@ -29,10 +29,10 @@ class Config:
     ]
     # if any of the platform, does not work
     # please reopen
-    # https://github.com/SpEcHiDe/MyTelegramOrgRoBot/issues/3
+    # https://github.com/kenkannih/scraper-ken
     APP_DESCRIPTION = os.environ.get(
         "APP_DESCRIPTION",
-        "created using https://telegram.dog/scrapmanbot"
+        "created using https://telegram.dog/scraperkenbot"
     )
     #
     FOOTER_TEXT = os.environ.get("FTEXT", "Managed With ☕️ By @kenkanasw")
