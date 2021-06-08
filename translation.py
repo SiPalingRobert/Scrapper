@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hai!{} ngab
+    START_TEXT = """Hai! ngab
 mau cari API ID & API HASH Telegram sini ngab gue bantu yang pastinya simple.
 Silahkan Masukkan Nomor Telepon Telegram Ngab bukan no bh Dengan Format +62(nohp).
 """
