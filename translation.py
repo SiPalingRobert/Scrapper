@@ -10,7 +10,7 @@ Kode ini hanya digunakan untuk tujuan mendapatkan ID APP dari my.telegram.org
 jika Anda tidak mempercayai dev bot ini, Ngambil Manual aja Goblokk 😁🙏
 """
     BEFORE_SUCC_LOGIN = "Kode Diterima. Scarpping Web Page..."
-    ERRED_PAGE = "Hadeh Error Ngab. Gagal Mendapatkan id aplikasi. \n\n Kontak saya : @kenkanasw"
+    ERRED_PAGE = "Hadeh Error Ngab. Gagal Mendapatkan id aplikasi.\n\nKontak saya : @kenkanasw"
     CANCELLED_MESG = "Bye! Silahkan /start kembali ngab untuk mengulang"
     IN_VALID_CODE_PVDED = "Masukan Kode Telegram yang Bener Goblok 😁🙏"
     IN_VALID_PHNO_PVDED = "Masukan NO HP yang Bener Goblok 😁🙏 Pake Format +(kode Negara) Contoh +62(nohp)"
