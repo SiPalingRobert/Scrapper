@@ -32,7 +32,7 @@ class Config:
     # https://github.com/kenkannih/scraper-ken
     APP_DESCRIPTION = os.environ.get(
         "APP_DESCRIPTION",
-        "created using https://telegram.dog/scraperkenbot"
+        "created using https:https://telegram.dog/UseTGxBot"
     )
     #
     FOOTER_TEXT = os.environ.get("FTEXT", "Managed With ☕️ By @kenkanasw")
