@@ -12,9 +12,9 @@ class Config:
     CHUNK_SIZE = 10280
     # MyTelegram.org
     # configurtion required while creating new application
-    APP_TITLE = os.environ.get("APP_TITLE", "Bukanahlirobot")
-    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "Bukanahlirobot")
-    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/Bukanahlirobot")
+    APP_TITLE = os.environ.get("APP_TITLE", "Kenkanrobot")
+    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "Kenkanrobot")
+    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/Kenkanrobot")
     # these platform informations were obtained
     # on 27.01.2020 21:15:50 IST
     APP_PLATFORM = [
@@ -29,13 +29,13 @@ class Config:
     ]
     # if any of the platform, does not work
     # please reopen
-    # https://github.com/kenkannih/scraper-ken
+    # https://github.com/jokokendi/Scrapper
     APP_DESCRIPTION = os.environ.get(
         "APP_DESCRIPTION",
-        "created using https:https://telegram.dog/Bukanahlirobot"
+        "created using https:https://telegram.dog/Kenkanrobot"
     )
     #
-    FOOTER_TEXT = os.environ.get("FTEXT", "Managed With ☕️ By @kenkanasw")
+    FOOTER_TEXT = os.environ.get("FTEXT", "**Dikelola oleh** 👤 By @kenkanasw")
     # the strings used in the different messages
     # in the bot
     START_TEXT = os.environ.get("START_TEXT", Translation.START_TEXT)
