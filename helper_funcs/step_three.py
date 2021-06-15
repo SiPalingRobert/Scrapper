@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 
 
 def scarp_tg_existing_app(stel_token):
-    """scraps the web page using the provided cookie,
-    returns True or False appropriately"""
+    """menghapus halaman web menggunakan cookie yang disediakan,
+    mengembalikan Benar atau Salah dengan tepat"""
     request_url = "https://my.telegram.org/apps"
     custom_header = {
         "Cookie": stel_token
@@ -30,17 +30,17 @@ def scarp_tg_existing_app(stel_token):
         test_configuration = g_inputs[4].string
         production_configuration = g_inputs[5].string
         # It is forbidden to pass this value to third parties.
-        _a = "It is forbidden to pass this value to third parties."
+        _a = "Dilarang memberikan nilai ini kepada pihak ketiga."
         #
         hi_inputs = soup.find_all("p", {"class": "help-block"})
         test_dc = hi_inputs[-2].text.strip()
         production_dc = hi_inputs[-1].text.strip()
         re_dict_vals = {
-            "App Configuration": {
+            "Konfigurasi Aplikasi": {
                 "app_id": app_id,
                 "api_hash": api_hash
             },
-            "Available MTProto Servers": {
+            "Server MTProto yang Tersedia": {
                 "test_configuration": {
                     "IP": test_configuration,
                     "DC": test_dc
